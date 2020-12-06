@@ -43,6 +43,6 @@ variables: # Pass environment variables as key value pairs.
 # You can override any of the values defined above by environment.
 environments:
   test:
-    count: 1 # Number of tasks to run for the "test" environment.
+    count: 1
     variables:
-      Greeting: Hello there! This is a test.
+      GREETING: Hello there! This is a test.
